@@ -35,16 +35,3 @@ else {
 
 }
 
-/*
-digitos=input("El resultado que obtuviste es un número de 6 cifras. Guarda una en secreto (no te la olvides, porque la voy a tratar de adivinar!) y decime las otras 5. Las podés decir en el orden que vos quieras. Por ejemplo, si el resultado es 106.920 y no me decís el 6, podrías ingresar 10920, o 10290, o 09201, etc. ")
-suma=0
-for digito in digitos:
-suma+=int(digito)
-if suma%9!=0:
-print("El dígito que falta es ", 9-suma%9)
-else:
-respuesta_final=input("Che, esto se complicó. Dejame pensar un poco.... El dígito que falta es 0?")
-if respuesta_final=="si":
-    print ("Menos mal! Gracias por jugar conmigo!")
-else:
-    print ("Ups. Dejame recapitular... Claro! Mala mía! Me apuré! El dígito que falta es 9!")*/
